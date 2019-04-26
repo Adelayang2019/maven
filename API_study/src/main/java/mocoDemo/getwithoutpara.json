@@ -1,0 +1,12 @@
+[
+  {
+    "description":"模拟一个没有参数的get请求",
+    "request":{
+      "uri":"/getwithoutpara",
+      "method":"get"
+    },
+    "response":{
+      "text":"返回一个没有参数的get请求"
+    }
+  }
+]

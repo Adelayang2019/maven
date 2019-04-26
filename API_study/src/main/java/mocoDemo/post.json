@@ -1,0 +1,29 @@
+[
+  {
+    "description":"不带参数的post方法",
+    "request":{
+      "uri":"/postwithoutpara",
+      "method":"post"
+    },
+    "response":{
+      "text":"不带参数的post方法"
+    }
+  },
+  {
+    "description":"带参数的post方法",
+    "request":{
+      "uri":"/postwithpara",
+      "method":"post",
+      "forms":{
+        "name":"lisi",
+        "age":"20"
+      }
+    },
+    "response":{
+      "json":{
+        "name":"lisi",
+        "age":"20"
+      }
+    }
+  }
+]

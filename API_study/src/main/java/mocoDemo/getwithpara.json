@@ -1,0 +1,16 @@
+[
+  {
+    "description":"这是一个带参数的get请求",
+    "request":{
+      "uri":"/getwithpara",
+      "method":"get",
+      "queries":{
+        "name":"zhangsan",
+        "age":"12"
+      }
+    },
+    "response":{
+      "text":"返回一个带参数的get 请求"
+    }
+  }
+]
